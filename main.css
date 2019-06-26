@@ -1,0 +1,87 @@
+body {
+    background-color: #5ea3d3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 1500px;
+    margin: auto;
+}
+::placeholder {
+    color: rgb(75, 75, 75);
+    text-indent: 5px;
+    font-style: italic;
+}
+label {
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    font-size: 11px;
+}
+input {
+    height: 25px;
+    flex-grow: 1;
+    width: 200px;
+    background-color: #5ea3d3;
+    border: 1px solid white;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    color: white;
+    text-indent: 5px;
+}
+.biography{
+    width: 200px;
+    height: 100px;
+    background-color: #5ea3d3;
+    border: 1px solid white;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+.countrySelector{
+    width: 210px;
+    background-color: #5ea3d3;
+    border: 1px solid white;
+    color: white;
+    border-radius: 2px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+.affil {
+    width: 200px;
+    height: 95px;
+    background-color: #5ea3d3;
+    border: 1px solid white;
+    color: white;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+.comments {
+    width: 200px;
+    height: 95px;
+    background-color: #5ea3d3;
+    border: 1px solid white;
+    color: white;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+.occuSelector {
+    width: 210px;
+    background-color: #5ea3d3;
+    border: 1px solid white;
+    color: white;
+    border-radius: 2px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+.talentSelector{
+    width: 200px;
+    background-color: #5ea3d3;
+    border: 1px solid white;
+    color: white;
+    border-radius: 2px;
+    height: 25px;
+    margin-bottom: 15px;
+}
