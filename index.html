@@ -7,51 +7,53 @@
         <title>Document</title>
     </head>
     </body>
-            <h1>Login</h1>
-            <label for="email">Email Address</label>
-            <div class ="inputwrapper">
-            <input type="email" name="email">
+    <div class="container">
+            <div class="col1">
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" placeholder="John">
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" placeholder="Doe">
+            <label for="lname">Email</label>
+            <input type="text" name="lname" placeholder="johndoe@email.com">
+            <label for="country">Country</label>
+            <select name="country" class="countrySelector" placeholder="Choose a Country">
+                <option value="usa">Choose a country</option>
+                <option value="china">China</option>
+            </select>
+            <label for="bio">Biography</label>
+            <textarea name="bio" class="biography"></textarea>
+            </div>  
+            <div class="col2">
+            <label for="pnumber">Phone Number</label>
+            <input type="tel" name="pnumber" placeholder="+351 999 9999">
+            <label for="affil">Affiliations</label>
+            <textarea name="affil" class="affil"></textarea>
+            <label for="occu">Occupation</label>
+            <select name="occu" class="occuSelector">
+                <option value="employed">Choose an occupation</option>
+                <option value="self-employed">Self Employed</option>
+            </select>
+            <label for="cname">Cat's Name</label>
+            <input type="text" name="cname" placeholder="Kitty">
+            <label for="fgadget">Favorite Gadget</label>
+            <input type="text" name="fgadget" placeholder="Annoy-a-tron">
             </div>
-            <label for="password">Password</label>
-            <div class ="inputwrapper">
-            <input type="password" name="password">
-            </div> 
-            <button type="submit">Login Now</button>
+            <div class="col3">
+            <label for="talent">Type of Talent</label>
+            <select name="talent" class="talentSelector">
+                <option value="dance">Choose a talent</option>
+                <option value="juggle">Juggling</option>
+            </select>
+            <label for="fdrink">Favorite Drink</label>
+            <input type="text" name="fdrink" placeholder="Green Tea">
+            <label for="sPower">Special Power</label>
+            <input type="text" name="sPower" placeholder="Anti-gravity">
+            <label for="weapon">Weapon of Choice</label>
+            <input type="text" name="weapon" placeholder="Lightsaber">
+            <label for="comments">Comments</label>
+            <textarea name="comments" class="comments"></textarea>
+            </div>
+    </div>
     </body>
     </html>
 </html>
-<!--
-    <fieldset> is used to put all your form shit in. It creates a bored of it.
-        Also you can use <legend> in fieldset to give it like a name.
-
-    <label>First Name </label> If you want it to work you have to link it to the input.
-    Each input you gotta give a "Id" property. Then label you put a "for" property to link em.
-
-    Name field is the name that it will label your propety once you submit it
-
-    Input Types:
-    Text
-    Tel
-    Date
-    email
-    number
-    url
-    password
-    search
-    color
-    range (max and min values
-    file
-    radio & checkbox (Connect radio and checkboxes with the name property. Checkbox the same but you can select multiple.)
-    ::placeholder selects all placeholders
-    margin-right left top and bottom shortcut. 
-    margin:10px; (All four sides get 10px)
-    margin: 10px 5px; (Top and bottom are 10px. Right and left get 5px)
-    margin: top left&right bottom
-    margin: top right bottom left
-    Same as padding for margin.
-
-    html {box-sizing: border-box}
-    *, *::before, *::after{box-sizing:inherit}
-    *, *::before, *::after{box-sizing:border-box}
-
--->
