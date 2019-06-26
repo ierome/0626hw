@@ -33,6 +33,11 @@ label {
     margin-bottom: 3px;
     font-size: 11px;
 }
+textarea {
+    color: white;
+    text-indent: 5px;
+}
+
 input {
     height: 25px;
     flex-grow: 1;
