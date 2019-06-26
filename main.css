@@ -10,10 +10,14 @@ body {
     margin: auto;
 }
 ::placeholder {
-    color: rgb(75, 75, 75);
+    color: rgb(76, 116, 144);
     text-indent: 5px;
     font-style: italic;
 }
+input:focus { 
+    outline: none !important;
+    border-color: rgb(48, 109, 153);
+  }
 label {
     display: block;
     color: white;
