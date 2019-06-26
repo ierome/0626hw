@@ -18,6 +18,10 @@ input:focus {
     outline: none !important;
     border-color: rgb(48, 109, 153);
   }
+  textarea:focus { 
+    outline: none !important;
+    border-color: rgb(48, 109, 153);
+  }
 label {
     display: block;
     color: white;
